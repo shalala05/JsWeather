@@ -10,7 +10,7 @@ $(document).ready(function () {
                 $("#city").html(data.name);
                 $("#temp").html(data.main.temp);
                 $("#feels").html(data.main.feels_like);
-                $("myWeather").val("");
+                $("#myWeather").val("");
                 console.log(data);
             }
             myweather();
@@ -27,7 +27,7 @@ $(document).ready(function () {
             $("#city").html(data.name);
             $("#temp").html(data.main.temp);
             $("#feels").html(data.main.feels_like);
-            $("myWeather").val("");
+            $("#myWeather").val("");
             console.log(data);
         }
         myweather();
